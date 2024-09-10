@@ -1,0 +1,23 @@
+.italic{
+  font-style: italic;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.info{
+  background-color: #F8F9FA;
+  width: 250px;
+  text-align: center;
+}
+
+#info-image{
+  width: 230px;
+}
+
+.title-section{
+  background-color: #8DB1C3;
+  margin: 10px;
+  padding: 3px;
+}
