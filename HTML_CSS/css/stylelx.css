@@ -35,13 +35,14 @@ nav {
 
 .header-text {
   text-align: center;
-  background-color: #8DB1C3;
+  background-color: #2A9D8F;
   padding: 80px;
 }
 
-.section1-title {
+.section-title {
   text-align: left;
   padding: 80px 0 0 0;
+  color: #264653;
 }
 
 .italic {
@@ -71,8 +72,8 @@ nav {
   width: 230px;
 }
 
-.title-section {
-  background-color: #8DB1C3;
+.title-section-box {
+  background-color: #2A9D8F;
   margin: 10px;
   padding: 3px;
 }
@@ -82,6 +83,21 @@ footer {
   justify-content: center;
   align-items: center;
   height: 175px;
-  background-color: #8DB1C3;
+  background-color: #2A9D8F;
   margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.form-item {
+  padding: 10px;
+}
+
+.why-create {
+  display: flex;
+  flex-direction: column;
 }
