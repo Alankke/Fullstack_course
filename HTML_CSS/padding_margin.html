@@ -26,6 +26,7 @@
 
   <section id="about-us">
     <h2 class="section-title">About us</h2>
+    <hr>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse odio totam aliquam doloremque ratione
       obcaecati impedit deleniti eos sunt nam eligendi eaque consequatur provident iure, distinctio ea autem quam hic
       delectus? Commodi temporibus facere ex. Temporibus dicta rem delectus cumque sunt cum quia esse eos tempore harum.
@@ -33,19 +34,23 @@
       reiciendis nesciunt incidunt magni ratione qui. Rerum, saepe in.</p>
   </section>
 
+  <h2 class="section-title">Create account now!</h2>
+  <hr>
   <section id="create-account">
-    <h2 class="section-title">Create account now!</h2>
+
     <form method="post">
-      <label class="form-item"> Name <input type="text" name="Name" id="userName"> </label>
-      <label class="form-item"> Last name <input type="text" name="Last_name" id="userLastname"></label>
-      <label class="form-item"> Email <input type="email" name="Email" id="userEmail"></label>
-      <label class="form-item"> Birthdate <input type="date" name="Birthdate" id="userBirthdate"></label>
+      <label class="form-item"> Name <input type="text" name="Name" id="userName" class="input-label"> </label>
+      <label class="form-item"> Last name <input type="text" name="Last_name" id="userLastname"
+          class="input-label"></label>
+      <label class="form-item"> Email <input type="email" name="Email" id="userEmail" class="input-label"></label>
+      <label class="form-item"> Birthdate <input type="date" name="Birthdate" id="userBirthdate"
+          class="input-label"></label>
       <label class="form-item"> Accept terms and conditions
-        Si<input type="radio" name="terms" id="terms-true" value="true">
-        No<input type="radio" name="terms" id="terms-false" value="false">
+        <label><input type="radio" name="terms" id="terms-true" value="true"> Si</label>
+        <label><input type="radio" name="terms" id="terms-false" value="false"> No</label>
       </label>
       <label class="form-item"> Nationality
-        <select name="nationality">
+        <select name="nationality" class="input-label">
           <option value="">-- select one --</option>
           <option value="afghan">Afghan</option>
           <option value="albanian">Albanian</option>
@@ -244,7 +249,7 @@
       <label class="form-item">
         Why do you want to create an account?
         <section class="why-create">
-          I love biographys
+          I love biographies
           <input type="checkbox">
           Study
           <input type="checkbox">
@@ -256,11 +261,11 @@
         <input type="file" name="ProfilePhoto" id="userPhoto">
       </label>
       <label class="form-item"> Password
-        <input type="password" name="Password" id="userPassword">
+        <input type="password" name="Password" id="userPassword" class="input-label">
       </label>
-      <button type="submit" class="form-item">
-        Create account
-      </button>
+      <div class="button-container"><button type="submit" class="form-item-button">
+          Create account
+        </button></div>
     </form>
   </section>
 
